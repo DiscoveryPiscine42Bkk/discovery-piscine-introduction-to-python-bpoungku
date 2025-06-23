@@ -8,6 +8,7 @@ except ValueError:
 if num > 25:
     print("Error") 
 else: 
-    while num < 25:
-        print(f"Inside the loop, my variable is {num}")
-        num += 1 
+    i = num
+    while i <= 25:
+        print(i)
+        i += 1 

@@ -1,3 +1,4 @@
+from random import randint
 print("Welcome to the Guess the Number game!")
 print("I've generated a secret number between 1 and 100. You have 5 guesses.")
 
